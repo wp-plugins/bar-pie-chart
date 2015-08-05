@@ -22,17 +22,24 @@ This is a plugin to display a simple nice looking pie chart with short codes.
 
 == Short codes ==
 
-* To display the pie chart just add this short code
+To display the pie chart just add this short code
   [bpc_bar_pie_chart]
 
-* You will notice that the default percent on the chart is 50% to change the value add the precent attribute and the value you want it to be. 
+You will notice that the default percent on the chart is 50% to change the value add the precent attribute and the value you want it to be
   [bpc_bar_pie_chart percent="20"]
   
-*You can change the color of the chart by adding the color attribute. The color can either be a name like "black" or be a Hex value like "#000000"
+You can change the color of the chart by adding the color attribute. The color can either be a name like "black" or be a Hex value like '#000000'
   [bpc_bar_pie_chart percent="30" color="black"]
   
-*You can make the chart smaller with the size attribute. 
+You can make the chart smaller with the size attribute 
   [bpc_bar_pie_chart percent="60" color="#00FF00" size="small"]
+
+== Screenshots ==
+
+1. Basic Bar Pie Chart
+2. Bar Pie Chart that is set to 60%
+3. Bar Pie chart with 70% and color Black
+4. Bar Pie Chart with 80%, color red and Size small
 
 == Change log ==
 
